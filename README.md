@@ -68,3 +68,36 @@ Workspace: Workspaces in Terraform are a way to manage multiple environments (e.
 Remote Backend: A remote backend is a storage location for your Terraform state files that is not stored locally. Popular choices for remote backends include Amazon S3, Azure Blob Storage, or HashiCorp Terraform Cloud. Remote backends enhance collaboration and provide better security and reliability for your state files.
 
 These are some of the essential terms you'll encounter when working with Terraform. As you start using Terraform for your infrastructure provisioning and management, you'll become more familiar with these concepts and how they fit together in your IaC workflows.
+
+
+
+
+* INSTALL TERRAFORM
+
+* Ubuntu/Debian
+  
+$ wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+
+$ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+
+$ sudo apt update && sudo apt install terraform
+
+
+* CentOS/RHEL
+
+$ sudo yum install -y yum-utils
+$ sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+$ sudo yum -y install terraform
+
+
+* Amazon Linux
+  
+$ sudo yum install -y yum-utils shadow-utils
+$ sudo yum-config-manager --add-repohttps://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+$ sudo yum -y install terraform
+
+
+* Windows
+  
+To download terraform on windows, refer below page;
+https://developer.hashicorp.com/terraform/install#windows
