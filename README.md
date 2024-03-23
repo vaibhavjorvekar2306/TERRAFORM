@@ -17,9 +17,14 @@ IaC addresses these challenges by providing a systematic, automated, and code-dr
 These tools enable organizations to define, deploy, and manage their infrastructure efficiently and consistently, making it easier to adapt to the dynamic needs of modern applications and services.
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 * What is Terraform ?
 
 Terraform is an open source “Infrastructure as Code” tool, created by HashiCorp. A declarative coding tool, Terraform enables developers to use a high-level configuration language called HCL (HashiCorp Configuration Language) to describe the desired “end-state” cloud or on-premises infrastructure for running an application. It then generates a plan for reaching that end-state and executes the plan to provision the infrastructure. Because Terraform uses a simple syntax, can provision infrastructure across multiple cloud and on-premises data centers, and can safely and efficiently re-provision infrastructure in response to configuration changes, it is currently one of the most popular infrastructure automation tools available. If your organization plans to deploy a hybrid cloud or multicloud environment, you’ll likely want or need to get to know Terraform.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 * Why Terraform ?
@@ -41,6 +46,9 @@ There are multiple reasons why Terraform is used over the other IaC tools but be
 7) Integration with Other Tools: Terraform can be integrated with other DevOps and automation tools, such as Docker, Kubernetes, Ansible, and Jenkins, allowing you to create comprehensive automation pipelines.
 
 8) HCL Language: Terraform uses HashiCorp Configuration Language (HCL), which is designed specifically for defining infrastructure. It's human-readable and expressive, making it easier for both developers and operators to work with.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 * Key Terminologies in Terraform
@@ -71,6 +79,8 @@ To get started with Terraform, it's important to understand some key terminology
 These are some of the essential terms you'll encounter when working with Terraform. As you start using Terraform for your infrastructure provisioning and management, you'll become more familiar with these concepts and how they fit together in your IaC workflows.
 
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 * INSTALL TERRAFORM
